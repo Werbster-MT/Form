@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <h1>Formulário</h1>
+
+    <form action="" class="form">
+        <div class="name">
+            <label for="">Nome: </label> 
+            <input type="text" placeholder="Ex.: João da Silva">
+        </div>
+        
+
+        <label for="">Escolha um Pet</label>
+        <div class="pets">
+            <div class="pet">
+                <label for="dog">
+                    <img src="assets/img/cachorro.jpg" alt="">
+                </label>
+        
+                <input type="radio" name="dog" id="dog">
+            </div>
+            
+            <div class="pet">
+                <label for="cat">
+                    <img src="assets/img/gato.jpg" alt="">
+                </label>
+                
+                <input type="radio" name="cat" id="cat">
+            </div>
+
+            <div class="pet">
+                <label for="guinea-pig">
+                    <img src="assets/img/porquinho.jpg" alt="">
+                </label>
+                
+                <input type="radio" name="guinea-pig" id="guinea-pig">
+            </div>
+            
+            <div class="pet">
+                <label for="hamster">
+                    <img src="assets/img/hamster.jpg" alt="">
+                </label>
+                
+                <input type="radio" name="hamster" id="hamster">
+            </div>
+        </div>
+        
+        <div class="text">
+            <label for="res">Por que gosta desse Pet ?</label>
+            <textarea name="res" id="res" cols="30" rows="10">
+            </textarea>
+        </div>
+
+        <input type="submit" class="btn" value="Enviar">
+
+    </form>
+</body>
+</html>

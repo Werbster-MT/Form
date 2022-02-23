@@ -1,0 +1,24 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Werbster-MT/Form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Werbster-MT/Form/issues"
+  },
+  "homepage": "https://github.com/Werbster-MT/Form#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
